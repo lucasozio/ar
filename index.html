@@ -21,14 +21,13 @@
             <a-assets>
                 <a-asset-item
                     id="animated-asset"
-                    src="assets/asset.glb"
-                ></a-asset-item>
-			<a-assets>
+                    src="assets/asset.glb">
+		</a-asset-item>
 			<a-assets>
 			<a-asset-item
                     id="animated-asset1"
-                    src="assets/asset1.glb"
-            ></a-asset-item>
+                    src="assets/asset1.glb">
+		</a-asset-item>
                         </a-assets>
 
             <a-marker
@@ -58,16 +57,15 @@
                 raycaster="objects: .clickable"
                 emitevents="true"
                 cursor="fuse: false; rayOrigin: mouse;"
-                id="markerB"
-            >
+                id="markerB">
                 <a-entity
                     id="bowser-model1"
                     scale="0.28482725060034164 0.28482725060034164 0.28482725060034164"
                     animation-mixer="loop: repeat"
                     gltf-model="#animated-asset1"
                     class="clickable"
-                    gesture-handler
-                ></a-entity>
+                    gesture-handler>
+		 </a-entity>
             </a-marker>
 
             <a-entity camera></a-entity>
